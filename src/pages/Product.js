@@ -11,7 +11,7 @@ const Product = () => {
       {id ? (
         <div>Product ID: {id}</div>
       ) : (
-        <ul>
+        <ol className="product-list">
           <li>
             <Link to="/product/1">Product1</Link>
           </li>
@@ -21,7 +21,7 @@ const Product = () => {
           <li>
             <Link to="/product/3">Product3</Link>
           </li>
-        </ul>
+        </ol>
       )}
     </div>
   );

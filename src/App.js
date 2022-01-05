@@ -15,6 +15,7 @@ function App() {
       <Router>
         <header>
           <NavLink
+            className="nav-link"
             to="/"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",
@@ -23,6 +24,7 @@ function App() {
             Home
           </NavLink>
           <NavLink
+            className="nav-link"
             to="/about"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",
@@ -31,6 +33,7 @@ function App() {
             About
           </NavLink>
           <NavLink
+            className="nav-link"
             to="/product"
             style={({ isActive }) => ({
               fontWeight: isActive ? "bold" : "normal",

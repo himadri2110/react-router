@@ -1,5 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: var(--primary);
+}
+
+:root {
+  --primary: rgb(39, 38, 44);
+}
+
 .App {
   text-align: center;
+}
+
+header {
+  margin: 1.5rem 1rem;
+}
+
+.nav-link {
+  margin: 0 1.5rem;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+.product-list > li {
+  margin: 0.5rem;
 }
 
 .active {
