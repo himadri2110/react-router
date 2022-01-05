@@ -12,11 +12,23 @@
   --primary: rgb(39, 38, 44);
 }
 
-.App {
-  text-align: center;
+body {
+  overflow-x: hidden;
 }
 
-header {
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.router {
+  flex-grow: 1;
+}
+
+header,
+footer {
   margin: 1.5rem 1rem;
 }
 
